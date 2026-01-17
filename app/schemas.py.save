@@ -1,0 +1,12 @@
+^^^^O<<<<<<< HEAD
+=======
+from pydantic import BaseModel
+
+class UserCreate(BaseModel):
+    name: str
+
+class Transaction(BaseModel):
+    amount: int
+
+    
+>>>>>>> 15cdcf7 (new files)
